@@ -26,7 +26,7 @@ const Blog = ({ data }) => {
         <article key={post.id}>
           <h2>
             <Link
-              to={`/blog/${post.uri}`}
+              to={`${post.uri}`}
               dangerouslySetInnerHTML={{ __html: post.title }}
             />
           </h2>
