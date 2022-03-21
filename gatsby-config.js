@@ -11,7 +11,7 @@ module.exports = {
       options: {
         typeName: 'WPGraphQL',
         fieldName: 'wpgraphql',
-        url: 'http://13.229.218.155/graphql',
+        url: 'https://helinchooi.com/graphql',
       }
     }
   ]
