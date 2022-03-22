@@ -6,12 +6,14 @@ body {
 }
 
 header {
-  background: darkblue;
+  background: #ffbb00;
   padding: 1rem 5vw;
+  display: flex;
+  justify-content: space-between;
 }
 
 header a {
-  color: white;
+  color: black;
   display: inline-block;
   margin-left: 0.75rem;
 }

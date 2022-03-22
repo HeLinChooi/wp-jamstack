@@ -14,13 +14,16 @@ const Layout = ({ children }) => {
   }
 `)
 
-const { title } = data.wpgraphql.generalSettings
+  const { title } = data.wpgraphql.generalSettings
 
   return (
     <>
-      <header>
+      <header class="header">
         <Link to="/" className="home">
-        {title}
+          {title}
+        </Link>
+        <Link to="/about-us/">
+          {"About Us"}
         </Link>
       </header>
       <main>{children}</main>
