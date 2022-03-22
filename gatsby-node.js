@@ -3,7 +3,7 @@ exports.createPages = async ({ actions, graphql }) => {
   const result = await graphql(`
     {
       wpgraphql {
-        posts(first: 10) {
+        posts(first: 50) {
           pageInfo {
             endCursor
             hasNextPage
