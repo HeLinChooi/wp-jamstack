@@ -26,7 +26,7 @@ const Layout = ({ children }) => {
           {"About Us"}
         </Link>
       </header>
-      <main>{children}</main>
+      <main style={{ maxWidth: "90%" }}>{children}</main>
     </>
   )
 }

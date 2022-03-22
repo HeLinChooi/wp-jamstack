@@ -3,7 +3,13 @@ exports.createPages = async ({ actions, graphql }) => {
   const result = await graphql(`
     {
       wpgraphql {
-        posts {
+        posts(first: 10) {
+          pageInfo {
+            endCursor
+            hasNextPage
+            hasPreviousPage
+            startCursor
+          }
           nodes {
             id
             uri
