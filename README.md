@@ -1,4 +1,5 @@
 ## Wordpress to Gatsby repo for Aglowlife Project
+[Now on netlify](https://aglowlife.netlify.app/)
 
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
